@@ -5,7 +5,7 @@ def get_todo():
         todo_list = readFile.readlines()
     return todo_list
 
-def write_todo(filepath,todos):
+def write_todo(todos):
     """Writes the current To-Do List into the txt file."""
-    with open(filepath, "w") as writeFile:
+    with open("todo.txt", "w") as writeFile:
         writeFile.writelines(todos)
