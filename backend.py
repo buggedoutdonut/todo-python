@@ -1,5 +1,6 @@
 from functions import get_todo, write_todo
 import time
+import graphlib
 
 todo_list = get_todo()
 
